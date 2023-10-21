@@ -6,7 +6,7 @@ use std::{
     time::Duration
 };
 
-use http_server::ThreadPool;
+use simple_http_server::ThreadPool;
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:8000").unwrap();
